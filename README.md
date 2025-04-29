@@ -124,7 +124,3 @@ MindMesh vise à proposer une expérience claire et fluide pour comprendre, entr
 ---
 
 > 🖖 Créé avec intensité, passion et discipline par **Vraith**.
-
-```
-
-```
