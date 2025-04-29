@@ -56,3 +56,54 @@
 > MindMesh a franchi son premier seuil d'existence aujourd'hui.  
 > L'ossature backend est propre, scalable, et prête à accueillir l'intelligence neuronale._  
 > **– Vraith**
+
+---
+
+# 🔠 Template pour les prochaines entrées
+
+## 🗓️ [29 Avril 2025] — 🕛 [Après-midi /]
+
+---
+
+### 🎯 Objectifs
+
+- [Renforcer la robustesse de la fonction trainModel]
+- [Typage complet et sécurisé avec TypeScript]
+- [Optimisation de la gestion mémoire avec TensorFlow.js]
+- [Préparation d’un système de monitoring de l’entraînement (callback externe)]
+- [Nettoyage et modularisation du code d'entraînement]
+
+---
+
+### 🛠️ Actions réalisées
+
+- [Nettoyage et modularisation du code d'entraînement]
+  - - [Correction du typage du paramètre onEpochEnd]
+  - - [Ajout d'un support pour callback externe pendant l'entraînement]
+- [Gestion mémoire améliorée :]
+  - - [Encapsulation de la génération de xs et ys dans tf.tidy()]
+  - - [Utilisation explicite de dispose() après l'entraînement pour éviter les fuites]
+- [Création d'une fonction serializeWeights(model) :]
+  - - [Transformation sûre des poids TensorFlow en tableaux JS natifs]
+- [Validation complète du typage :]
+- - [ Correction du type de retour de serializeWeights pour supporter toutes les dimensions possibles (number | number[] | number[][] | number[][][])]
+
+---
+
+### 🧐 Résultats obtenus
+
+- ✅ Fonction trainModel 100% typée et sécurisée
+- ✅ Libération systématique des Tensors pour éviter les memory leaks
+- ✅ Architecture prête pour un suivi en temps réel du training (live loss monitoring)
+- ✅ Base d’entraînement propre, claire et extensible pour MindMesh
+
+---
+
+### 📝 Commentaires / Ressenti
+
+> _Session de l'après-midi focalisée sur la propreté et la rigueur.
+> Le moteur d'entraînement neuronal est prêt à encaisser des itérations sérieuses.
+> Typage strict, mémoire propre, et architecture souple pour la suite.
+> MindMesh a désormais un cœur d'entraînement solide._ > **– Vraith**
+
+---
