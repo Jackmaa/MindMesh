@@ -73,6 +73,7 @@ MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/mindmesh
 
 ## 📁 Project Structure
 
+```bash
 /mindmesh
 ├── client/ # Frontend React (Vite + TailwindCSS + TS)
 │ ├── src/
@@ -91,6 +92,8 @@ MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/mindmesh
 ├── README.md
 ├── .env
 ├── package.json
+
+```
 
 ## 📈 Roadmap (16 juin - 21 juillet)
 
